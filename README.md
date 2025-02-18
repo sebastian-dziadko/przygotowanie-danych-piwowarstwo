@@ -9,7 +9,7 @@ Do uruchomienia projektu potrzebujesz kilku pakietów R: ggplot2 (Tworzenie wykr
 install.packages(c("ggplot2", "dplyr", "FactoMineR", "factoextra", "corrplot", "VIM", "car", "EnvStats", "outliers", "readxl"))
 
 ## Przygotowanie danych
-1. **Wczytywanie danych**: Na początku wczytujemy dwa pliki CSV: dane_p.csv (z danymi o piwowarstwie) oraz styl.csv (z informacjami o stylach piwa). Przykładowo:
+1. **Wczytywanie danych**: Na początku wczytujemy dwa pliki CSV: dane_p.csv (z danymi o piwowarstwie) oraz styl.csv (z informacjami o stylach piwa). 
 
 dane <- read.csv("ścieżka_do_pliku/dane_p.csv", sep = ";")
 styl <- read.csv("ścieżka_do_pliku/styl.csv", sep = ";")
