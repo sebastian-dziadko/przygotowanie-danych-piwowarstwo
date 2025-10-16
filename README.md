@@ -43,5 +43,4 @@ styl <- read.csv("ścieżka_do_pliku/styl.csv", sep = ";")
 - styl.csv – Dane o stylach piwa
 - Przygotowanie_danych.R – Skrypt R do analizy danych
 
-## Licencja
-Projekt jest objęty licencją MIT. Możesz dowolnie używać, modyfikować i rozpowszechniać ten kod, pod warunkiem zachowania informacji o autorze.
+
