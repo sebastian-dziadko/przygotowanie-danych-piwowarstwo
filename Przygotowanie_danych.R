@@ -16,8 +16,8 @@ library(outliers)
 library(EnvStats)
 library(corrplot)
 
-dane<-read.csv("C:/Users/48690/Desktop/Przygotowanie/dane_p.csv",sep=";") #wczytanie danych
-styl<-read.csv("C:/Users/48690/Desktop/Przygotowanie/styl.csv",sep=";") #wczytanie pliku ze stylami
+dane<-read.csv("dane_p.csv",sep=";") #wczytanie danych
+styl<-read.csv("styl.csv",sep=";") #wczytanie pliku ze stylami
 
 #1. Określenie celu badania: Celem badania jest przygotowanie danych do stworzenia modeli regresji badającego tego jak
 #dane zmienne dotyczące piwowarstwa zależą od innych zmiennych dotyczących piwowarstwa np. czy czas warzenia piwa wpływa na gęstość trunku.
@@ -316,6 +316,7 @@ View(probka)
 dane_gotowe<-probka
 View(dane_gotowe) #Oto są gotowe dane, które można wykorzystać do budowy modeli regresji i poszukiwania zależności między zmiennymi
 #Zawarte zostały zmienne zarówno, które można wykorzystać w ilościowej analizie, jak i te indetyfikujące daną obserwację.
+
 
 
 
